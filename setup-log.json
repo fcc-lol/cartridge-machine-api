@@ -1,0 +1,9 @@
+{
+  "service_id": "cartridge-machine-api",
+  "service_name": "Cartridge Machine API",
+  "domain": "https://cartridge-machine-api.fcc.lol",
+  "host": "localhost",
+  "port": "3108",
+  "author": "fcc",
+  "created_on": "Sun Jul  6 01:34:06 UTC 2025"
+}
