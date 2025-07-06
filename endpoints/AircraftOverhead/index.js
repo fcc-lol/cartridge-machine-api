@@ -11,7 +11,7 @@ const fetchAircraftData = async () => {
     throw new Error("FCC Studio coordinates are not configured");
   }
 
-  const apiUrl = `https://api.adsb.lol/v2/lat/${FCC_STUDIO_LAT}/lon/${FCC_STUDIO_LON}/dist/100`;
+  const apiUrl = `https://api.adsb.lol/v2/lat/${FCC_STUDIO_LAT}/lon/${FCC_STUDIO_LON}/dist/20`;
 
   const response = await fetch(apiUrl);
 
