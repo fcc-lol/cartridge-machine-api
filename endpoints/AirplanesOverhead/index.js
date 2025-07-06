@@ -26,8 +26,18 @@ const fetchAirplaneData = async () => {
 // GET endpoint for AirplanesOverhead - returns airplane data
 router.get("/", async (req, res) => {
   try {
+    const FCC_STUDIO_LAT = process.env.FCC_STUDIO_LAT;
+    const FCC_STUDIO_LON = process.env.FCC_STUDIO_LON;
+
     const airplaneData = await fetchAirplaneData();
-    res.json(airplaneData);
+
+    res.json({
+      ...airplaneData,
+      location: {
+        lat: parseFloat(FCC_STUDIO_LAT),
+        lng: parseFloat(FCC_STUDIO_LON)
+      }
+    });
   } catch (error) {
     res.status(500).json({
       message: "Error fetching airplane data",
