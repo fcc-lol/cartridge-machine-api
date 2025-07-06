@@ -1,0 +1,1286 @@
+{
+  "timestamp": 1751766747651,
+  "data": [
+    {
+      "identifier": "20250703000830",
+      "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "image": "epic_1b_20250703000830",
+      "version": "03",
+      "centroid_coordinates": {
+        "lat": 16.193848,
+        "lon": 179.143066
+      },
+      "dscovr_j2000_position": {
+        "x": -288666.874017,
+        "y": 1350174.8625,
+        "z": 403649.677286
+      },
+      "lunar_j2000_position": {
+        "x": -391242.603682,
+        "y": -78159.000698,
+        "z": -48677.480669
+      },
+      "sun_j2000_position": {
+        "x": -29001638.34728,
+        "y": 136980602.708889,
+        "z": 59378672.629477
+      },
+      "attitude_quaternions": {
+        "q0": -0.77039,
+        "q1": 0.62156,
+        "q2": 0.11551,
+        "q3": 0.08262
+      },
+      "date": "2025-07-03 00:03:42",
+      "coords": {
+        "centroid_coordinates": {
+          "lat": 16.193848,
+          "lon": 179.143066
+        },
+        "dscovr_j2000_position": {
+          "x": -288666.874017,
+          "y": 1350174.8625,
+          "z": 403649.677286
+        },
+        "lunar_j2000_position": {
+          "x": -391242.603682,
+          "y": -78159.000698,
+          "z": -48677.480669
+        },
+        "sun_j2000_position": {
+          "x": -29001638.34728,
+          "y": 136980602.708889,
+          "z": 59378672.629477
+        },
+        "attitude_quaternions": {
+          "q0": -0.77039,
+          "q1": 0.62156,
+          "q2": 0.11551,
+          "q3": 0.08262
+        }
+      },
+      "imageUrl": "/api/whole-earth-satellite-image/image/epic_1b_20250703000830.png",
+      "originalUrl": "https://api.nasa.gov/EPIC/archive/natural/2025/07/03/png/epic_1b_20250703000830.png?api_key=gXhpMC8Y1O3UF7vXNxSg6z7XFd3i7knhE22bl6mw"
+    },
+    {
+      "identifier": "20250703011357",
+      "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "image": "epic_1b_20250703011357",
+      "version": "03",
+      "centroid_coordinates": {
+        "lat": 16.193848,
+        "lon": 162.817383
+      },
+      "dscovr_j2000_position": {
+        "x": -290138.871703,
+        "y": 1349901.625756,
+        "z": 403419.754862
+      },
+      "lunar_j2000_position": {
+        "x": -390464.966784,
+        "y": -81451.722193,
+        "z": -50448.232597
+      },
+      "sun_j2000_position": {
+        "x": -29114558.688951,
+        "y": 136960466.54912,
+        "z": 59369939.781184
+      },
+      "attitude_quaternions": {
+        "q0": -0.770883,
+        "q1": 0.620966,
+        "q2": 0.116068,
+        "q3": 0.081667
+      },
+      "date": "2025-07-03 01:09:09",
+      "coords": {
+        "centroid_coordinates": {
+          "lat": 16.193848,
+          "lon": 162.817383
+        },
+        "dscovr_j2000_position": {
+          "x": -290138.871703,
+          "y": 1349901.625756,
+          "z": 403419.754862
+        },
+        "lunar_j2000_position": {
+          "x": -390464.966784,
+          "y": -81451.722193,
+          "z": -50448.232597
+        },
+        "sun_j2000_position": {
+          "x": -29114558.688951,
+          "y": 136960466.54912,
+          "z": 59369939.781184
+        },
+        "attitude_quaternions": {
+          "q0": -0.770883,
+          "q1": 0.620966,
+          "q2": 0.116068,
+          "q3": 0.081667
+        }
+      },
+      "imageUrl": "/api/whole-earth-satellite-image/image/epic_1b_20250703011357.png",
+      "originalUrl": "https://api.nasa.gov/EPIC/archive/natural/2025/07/03/png/epic_1b_20250703011357.png?api_key=gXhpMC8Y1O3UF7vXNxSg6z7XFd3i7knhE22bl6mw"
+    },
+    {
+      "identifier": "20250703021925",
+      "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "image": "epic_1b_20250703021925",
+      "version": "03",
+      "centroid_coordinates": {
+        "lat": 16.21582,
+        "lon": 146.469727
+      },
+      "dscovr_j2000_position": {
+        "x": -291610.104001,
+        "y": 1349627.196955,
+        "z": 403189.817997
+      },
+      "lunar_j2000_position": {
+        "x": -389649.708598,
+        "y": -84736.629921,
+        "z": -52214.136981
+      },
+      "sun_j2000_position": {
+        "x": -29227460.351956,
+        "y": 136940250.722474,
+        "z": 59361170.302573
+      },
+      "attitude_quaternions": {
+        "q0": -0.771319,
+        "q1": 0.620419,
+        "q2": 0.11669,
+        "q3": 0.08076
+      },
+      "date": "2025-07-03 02:14:36",
+      "coords": {
+        "centroid_coordinates": {
+          "lat": 16.21582,
+          "lon": 146.469727
+        },
+        "dscovr_j2000_position": {
+          "x": -291610.104001,
+          "y": 1349627.196955,
+          "z": 403189.817997
+        },
+        "lunar_j2000_position": {
+          "x": -389649.708598,
+          "y": -84736.629921,
+          "z": -52214.136981
+        },
+        "sun_j2000_position": {
+          "x": -29227460.351956,
+          "y": 136940250.722474,
+          "z": 59361170.302573
+        },
+        "attitude_quaternions": {
+          "q0": -0.771319,
+          "q1": 0.620419,
+          "q2": 0.11669,
+          "q3": 0.08076
+        }
+      },
+      "imageUrl": "/api/whole-earth-satellite-image/image/epic_1b_20250703021925.png",
+      "originalUrl": "https://api.nasa.gov/EPIC/archive/natural/2025/07/03/png/epic_1b_20250703021925.png?api_key=gXhpMC8Y1O3UF7vXNxSg6z7XFd3i7knhE22bl6mw"
+    },
+    {
+      "identifier": "20250703032452",
+      "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "image": "epic_1b_20250703032452",
+      "version": "03",
+      "centroid_coordinates": {
+        "lat": 16.193848,
+        "lon": 130.078125
+      },
+      "dscovr_j2000_position": {
+        "x": -293080.623439,
+        "y": 1349351.5375,
+        "z": 402959.855358
+      },
+      "lunar_j2000_position": {
+        "x": -388796.910983,
+        "y": -88013.414956,
+        "z": -53975.029838
+      },
+      "sun_j2000_position": {
+        "x": -29340346.245215,
+        "y": 136919936.448236,
+        "z": 59352365.315767
+      },
+      "attitude_quaternions": {
+        "q0": -0.77172,
+        "q1": 0.619913,
+        "q2": 0.117331,
+        "q3": 0.079884
+      },
+      "date": "2025-07-03 03:20:03",
+      "coords": {
+        "centroid_coordinates": {
+          "lat": 16.193848,
+          "lon": 130.078125
+        },
+        "dscovr_j2000_position": {
+          "x": -293080.623439,
+          "y": 1349351.5375,
+          "z": 402959.855358
+        },
+        "lunar_j2000_position": {
+          "x": -388796.910983,
+          "y": -88013.414956,
+          "z": -53975.029838
+        },
+        "sun_j2000_position": {
+          "x": -29340346.245215,
+          "y": 136919936.448236,
+          "z": 59352365.315767
+        },
+        "attitude_quaternions": {
+          "q0": -0.77172,
+          "q1": 0.619913,
+          "q2": 0.117331,
+          "q3": 0.079884
+        }
+      },
+      "imageUrl": "/api/whole-earth-satellite-image/image/epic_1b_20250703032452.png",
+      "originalUrl": "https://api.nasa.gov/EPIC/archive/natural/2025/07/03/png/epic_1b_20250703032452.png?api_key=gXhpMC8Y1O3UF7vXNxSg6z7XFd3i7knhE22bl6mw"
+    },
+    {
+      "identifier": "20250703043020",
+      "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "image": "epic_1b_20250703043020",
+      "version": "03",
+      "centroid_coordinates": {
+        "lat": 16.149902,
+        "lon": 113.774414
+      },
+      "dscovr_j2000_position": {
+        "x": -294550.765234,
+        "y": 1349074.561823,
+        "z": 402729.785546
+      },
+      "lunar_j2000_position": {
+        "x": -387906.495117,
+        "y": -91282.603626,
+        "z": -55731.195414
+      },
+      "sun_j2000_position": {
+        "x": -29453240.604369,
+        "y": 136899554.998221,
+        "z": 59343525.471437
+      },
+      "attitude_quaternions": {
+        "q0": -0.77224,
+        "q1": 0.6193,
+        "q2": 0.11787,
+        "q3": 0.07889
+      },
+      "date": "2025-07-03 04:25:31",
+      "coords": {
+        "centroid_coordinates": {
+          "lat": 16.149902,
+          "lon": 113.774414
+        },
+        "dscovr_j2000_position": {
+          "x": -294550.765234,
+          "y": 1349074.561823,
+          "z": 402729.785546
+        },
+        "lunar_j2000_position": {
+          "x": -387906.495117,
+          "y": -91282.603626,
+          "z": -55731.195414
+        },
+        "sun_j2000_position": {
+          "x": -29453240.604369,
+          "y": 136899554.998221,
+          "z": 59343525.471437
+        },
+        "attitude_quaternions": {
+          "q0": -0.77224,
+          "q1": 0.6193,
+          "q2": 0.11787,
+          "q3": 0.07889
+        }
+      },
+      "imageUrl": "/api/whole-earth-satellite-image/image/epic_1b_20250703043020.png",
+      "originalUrl": "https://api.nasa.gov/EPIC/archive/natural/2025/07/03/png/epic_1b_20250703043020.png?api_key=gXhpMC8Y1O3UF7vXNxSg6z7XFd3i7knhE22bl6mw"
+    },
+    {
+      "identifier": "20250703053547",
+      "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "image": "epic_1b_20250703053547",
+      "version": "03",
+      "centroid_coordinates": {
+        "lat": 16.149902,
+        "lon": 97.404785
+      },
+      "dscovr_j2000_position": {
+        "x": -296019.783334,
+        "y": 1348796.391667,
+        "z": 402499.742236
+      },
+      "lunar_j2000_position": {
+        "x": -386979.033727,
+        "y": -94542.237376,
+        "z": -57481.582677
+      },
+      "sun_j2000_position": {
+        "x": -29566090.533358,
+        "y": 136879098.675475,
+        "z": 59334652.533331
+      },
+      "attitude_quaternions": {
+        "q0": -0.772578,
+        "q1": 0.618844,
+        "q2": 0.11856,
+        "q3": 0.078044
+      },
+      "date": "2025-07-03 05:30:58",
+      "coords": {
+        "centroid_coordinates": {
+          "lat": 16.149902,
+          "lon": 97.404785
+        },
+        "dscovr_j2000_position": {
+          "x": -296019.783334,
+          "y": 1348796.391667,
+          "z": 402499.742236
+        },
+        "lunar_j2000_position": {
+          "x": -386979.033727,
+          "y": -94542.237376,
+          "z": -57481.582677
+        },
+        "sun_j2000_position": {
+          "x": -29566090.533358,
+          "y": 136879098.675475,
+          "z": 59334652.533331
+        },
+        "attitude_quaternions": {
+          "q0": -0.772578,
+          "q1": 0.618844,
+          "q2": 0.11856,
+          "q3": 0.078044
+        }
+      },
+      "imageUrl": "/api/whole-earth-satellite-image/image/epic_1b_20250703053547.png",
+      "originalUrl": "https://api.nasa.gov/EPIC/archive/natural/2025/07/03/png/epic_1b_20250703053547.png?api_key=gXhpMC8Y1O3UF7vXNxSg6z7XFd3i7knhE22bl6mw"
+    },
+    {
+      "identifier": "20250703064114",
+      "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "image": "epic_1b_20250703064114",
+      "version": "03",
+      "centroid_coordinates": {
+        "lat": 16.12793,
+        "lon": 81.035156
+      },
+      "dscovr_j2000_position": {
+        "x": -297488.439491,
+        "y": 1348516.914887,
+        "z": 402269.639074
+      },
+      "lunar_j2000_position": {
+        "x": -386014.138037,
+        "y": -97793.67398,
+        "z": -59226.911639
+      },
+      "sun_j2000_position": {
+        "x": -29678953.0667,
+        "y": 136858548.460241,
+        "z": 59325745.066664
+      },
+      "attitude_quaternions": {
+        "q0": -0.77297,
+        "q1": 0.61835,
+        "q2": 0.11919,
+        "q3": 0.07716
+      },
+      "date": "2025-07-03 06:36:26",
+      "coords": {
+        "centroid_coordinates": {
+          "lat": 16.12793,
+          "lon": 81.035156
+        },
+        "dscovr_j2000_position": {
+          "x": -297488.439491,
+          "y": 1348516.914887,
+          "z": 402269.639074
+        },
+        "lunar_j2000_position": {
+          "x": -386014.138037,
+          "y": -97793.67398,
+          "z": -59226.911639
+        },
+        "sun_j2000_position": {
+          "x": -29678953.0667,
+          "y": 136858548.460241,
+          "z": 59325745.066664
+        },
+        "attitude_quaternions": {
+          "q0": -0.77297,
+          "q1": 0.61835,
+          "q2": 0.11919,
+          "q3": 0.07716
+        }
+      },
+      "imageUrl": "/api/whole-earth-satellite-image/image/epic_1b_20250703064114.png",
+      "originalUrl": "https://api.nasa.gov/EPIC/archive/natural/2025/07/03/png/epic_1b_20250703064114.png?api_key=gXhpMC8Y1O3UF7vXNxSg6z7XFd3i7knhE22bl6mw"
+    },
+    {
+      "identifier": "20250703074642",
+      "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "image": "epic_1b_20250703074642",
+      "version": "03",
+      "centroid_coordinates": {
+        "lat": 16.171875,
+        "lon": 64.709473
+      },
+      "dscovr_j2000_position": {
+        "x": -298956.008526,
+        "y": 1348236.245093,
+        "z": 402039.565812
+      },
+      "lunar_j2000_position": {
+        "x": -385012.460901,
+        "y": -101034.947481,
+        "z": -60966.13924
+      },
+      "sun_j2000_position": {
+        "x": -29791766.866603,
+        "y": 136837940.082545,
+        "z": 59316803.866672
+      },
+      "attitude_quaternions": {
+        "q0": -0.773354,
+        "q1": 0.617856,
+        "q2": 0.11983,
+        "q3": 0.076262
+      },
+      "date": "2025-07-03 07:41:53",
+      "coords": {
+        "centroid_coordinates": {
+          "lat": 16.171875,
+          "lon": 64.709473
+        },
+        "dscovr_j2000_position": {
+          "x": -298956.008526,
+          "y": 1348236.245093,
+          "z": 402039.565812
+        },
+        "lunar_j2000_position": {
+          "x": -385012.460901,
+          "y": -101034.947481,
+          "z": -60966.13924
+        },
+        "sun_j2000_position": {
+          "x": -29791766.866603,
+          "y": 136837940.082545,
+          "z": 59316803.866672
+        },
+        "attitude_quaternions": {
+          "q0": -0.773354,
+          "q1": 0.617856,
+          "q2": 0.11983,
+          "q3": 0.076262
+        }
+      },
+      "imageUrl": "/api/whole-earth-satellite-image/image/epic_1b_20250703074642.png",
+      "originalUrl": "https://api.nasa.gov/EPIC/archive/natural/2025/07/03/png/epic_1b_20250703074642.png?api_key=gXhpMC8Y1O3UF7vXNxSg6z7XFd3i7knhE22bl6mw"
+    },
+    {
+      "identifier": "20250703085209",
+      "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "image": "epic_1b_20250703085209",
+      "version": "03",
+      "centroid_coordinates": {
+        "lat": 16.083984,
+        "lon": 48.361816
+      },
+      "dscovr_j2000_position": {
+        "x": -300422.78125,
+        "y": 1347954.421363,
+        "z": 401809.457181
+      },
+      "lunar_j2000_position": {
+        "x": -383973.826761,
+        "y": -104266.603622,
+        "z": -62699.549608
+      },
+      "sun_j2000_position": {
+        "x": -29904564.074042,
+        "y": 136817237.333331,
+        "z": 59307829.483628
+      },
+      "attitude_quaternions": {
+        "q0": -0.773785,
+        "q1": 0.617303,
+        "q2": 0.120444,
+        "q3": 0.075347
+      },
+      "date": "2025-07-03 08:47:20",
+      "coords": {
+        "centroid_coordinates": {
+          "lat": 16.083984,
+          "lon": 48.361816
+        },
+        "dscovr_j2000_position": {
+          "x": -300422.78125,
+          "y": 1347954.421363,
+          "z": 401809.457181
+        },
+        "lunar_j2000_position": {
+          "x": -383973.826761,
+          "y": -104266.603622,
+          "z": -62699.549608
+        },
+        "sun_j2000_position": {
+          "x": -29904564.074042,
+          "y": 136817237.333331,
+          "z": 59307829.483628
+        },
+        "attitude_quaternions": {
+          "q0": -0.773785,
+          "q1": 0.617303,
+          "q2": 0.120444,
+          "q3": 0.075347
+        }
+      },
+      "imageUrl": "/api/whole-earth-satellite-image/image/epic_1b_20250703085209.png",
+      "originalUrl": "https://api.nasa.gov/EPIC/archive/natural/2025/07/03/png/epic_1b_20250703085209.png?api_key=gXhpMC8Y1O3UF7vXNxSg6z7XFd3i7knhE22bl6mw"
+    },
+    {
+      "identifier": "20250703095736",
+      "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "image": "epic_1b_20250703095736",
+      "version": "03",
+      "centroid_coordinates": {
+        "lat": 16.120605,
+        "lon": 32.043457
+      },
+      "dscovr_j2000_position": {
+        "x": -301889.210999,
+        "y": 1347671.241884,
+        "z": 401579.295244
+      },
+      "lunar_j2000_position": {
+        "x": -382898.13016,
+        "y": -107489.156593,
+        "z": -64427.423019
+      },
+      "sun_j2000_position": {
+        "x": -30017371.295926,
+        "y": 136796448.000024,
+        "z": 59298815.805228
+      },
+      "attitude_quaternions": {
+        "q0": -0.77422,
+        "q1": 0.61677,
+        "q2": 0.12104,
+        "q3": 0.07443
+      },
+      "date": "2025-07-03 09:52:48",
+      "coords": {
+        "centroid_coordinates": {
+          "lat": 16.120605,
+          "lon": 32.043457
+        },
+        "dscovr_j2000_position": {
+          "x": -301889.210999,
+          "y": 1347671.241884,
+          "z": 401579.295244
+        },
+        "lunar_j2000_position": {
+          "x": -382898.13016,
+          "y": -107489.156593,
+          "z": -64427.423019
+        },
+        "sun_j2000_position": {
+          "x": -30017371.295926,
+          "y": 136796448.000024,
+          "z": 59298815.805228
+        },
+        "attitude_quaternions": {
+          "q0": -0.77422,
+          "q1": 0.61677,
+          "q2": 0.12104,
+          "q3": 0.07443
+        }
+      },
+      "imageUrl": "/api/whole-earth-satellite-image/image/epic_1b_20250703095736.png",
+      "originalUrl": "https://api.nasa.gov/EPIC/archive/natural/2025/07/03/png/epic_1b_20250703095736.png?api_key=gXhpMC8Y1O3UF7vXNxSg6z7XFd3i7knhE22bl6mw"
+    },
+    {
+      "identifier": "20250703110304",
+      "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "image": "epic_1b_20250703110304",
+      "version": "03",
+      "centroid_coordinates": {
+        "lat": 16.105957,
+        "lon": 15.644531
+      },
+      "dscovr_j2000_position": {
+        "x": -303354.53125,
+        "y": 1347387.03125,
+        "z": 401349.154792
+      },
+      "lunar_j2000_position": {
+        "x": -381785.738563,
+        "y": -110701.488304,
+        "z": -66149.157652
+      },
+      "sun_j2000_position": {
+        "x": -30130132.593702,
+        "y": 136775599.999999,
+        "z": 59289769.815217
+      },
+      "attitude_quaternions": {
+        "q0": -0.774669,
+        "q1": 0.616191,
+        "q2": 0.121602,
+        "q3": 0.07354
+      },
+      "date": "2025-07-03 10:58:15",
+      "coords": {
+        "centroid_coordinates": {
+          "lat": 16.105957,
+          "lon": 15.644531
+        },
+        "dscovr_j2000_position": {
+          "x": -303354.53125,
+          "y": 1347387.03125,
+          "z": 401349.154792
+        },
+        "lunar_j2000_position": {
+          "x": -381785.738563,
+          "y": -110701.488304,
+          "z": -66149.157652
+        },
+        "sun_j2000_position": {
+          "x": -30130132.593702,
+          "y": 136775599.999999,
+          "z": 59289769.815217
+        },
+        "attitude_quaternions": {
+          "q0": -0.774669,
+          "q1": 0.616191,
+          "q2": 0.121602,
+          "q3": 0.07354
+        }
+      },
+      "imageUrl": "/api/whole-earth-satellite-image/image/epic_1b_20250703110304.png",
+      "originalUrl": "https://api.nasa.gov/EPIC/archive/natural/2025/07/03/png/epic_1b_20250703110304.png?api_key=gXhpMC8Y1O3UF7vXNxSg6z7XFd3i7knhE22bl6mw"
+    },
+    {
+      "identifier": "20250703120832",
+      "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "image": "epic_1b_20250703120832",
+      "version": "03",
+      "centroid_coordinates": {
+        "lat": 16.062012,
+        "lon": -0.65918
+      },
+      "dscovr_j2000_position": {
+        "x": -304819.472917,
+        "y": 1347101.489583,
+        "z": 401118.961785
+      },
+      "lunar_j2000_position": {
+        "x": -380637.074902,
+        "y": -113902.490816,
+        "z": -67864.1505
+      },
+      "sun_j2000_position": {
+        "x": -30242904.10004,
+        "y": 136754650.666659,
+        "z": 59280690.706761
+      },
+      "attitude_quaternions": {
+        "q0": -0.77507,
+        "q1": 0.61567,
+        "q2": 0.1222,
+        "q3": 0.07264
+      },
+      "date": "2025-07-03 12:03:43",
+      "coords": {
+        "centroid_coordinates": {
+          "lat": 16.062012,
+          "lon": -0.65918
+        },
+        "dscovr_j2000_position": {
+          "x": -304819.472917,
+          "y": 1347101.489583,
+          "z": 401118.961785
+        },
+        "lunar_j2000_position": {
+          "x": -380637.074902,
+          "y": -113902.490816,
+          "z": -67864.1505
+        },
+        "sun_j2000_position": {
+          "x": -30242904.10004,
+          "y": 136754650.666659,
+          "z": 59280690.706761
+        },
+        "attitude_quaternions": {
+          "q0": -0.77507,
+          "q1": 0.61567,
+          "q2": 0.1222,
+          "q3": 0.07264
+        }
+      },
+      "imageUrl": "/api/whole-earth-satellite-image/image/epic_1b_20250703120832.png",
+      "originalUrl": "https://api.nasa.gov/EPIC/archive/natural/2025/07/03/png/epic_1b_20250703120832.png?api_key=gXhpMC8Y1O3UF7vXNxSg6z7XFd3i7knhE22bl6mw"
+    },
+    {
+      "identifier": "20250703131359",
+      "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "image": "epic_1b_20250703131359",
+      "version": "03",
+      "centroid_coordinates": {
+        "lat": 16.083984,
+        "lon": -17.028809
+      },
+      "dscovr_j2000_position": {
+        "x": -306283.290217,
+        "y": 1346814.770834,
+        "z": 400888.790227
+      },
+      "lunar_j2000_position": {
+        "x": -379452.004125,
+        "y": -117092.684252,
+        "z": -69572.702214
+      },
+      "sun_j2000_position": {
+        "x": -30355628.999887,
+        "y": 136733642.666688,
+        "z": 59271576.666676
+      },
+      "attitude_quaternions": {
+        "q0": -0.77548,
+        "q1": 0.61514,
+        "q2": 0.12281,
+        "q3": 0.07176
+      },
+      "date": "2025-07-03 13:09:10",
+      "coords": {
+        "centroid_coordinates": {
+          "lat": 16.083984,
+          "lon": -17.028809
+        },
+        "dscovr_j2000_position": {
+          "x": -306283.290217,
+          "y": 1346814.770834,
+          "z": 400888.790227
+        },
+        "lunar_j2000_position": {
+          "x": -379452.004125,
+          "y": -117092.684252,
+          "z": -69572.702214
+        },
+        "sun_j2000_position": {
+          "x": -30355628.999887,
+          "y": 136733642.666688,
+          "z": 59271576.666676
+        },
+        "attitude_quaternions": {
+          "q0": -0.77548,
+          "q1": 0.61514,
+          "q2": 0.12281,
+          "q3": 0.07176
+        }
+      },
+      "imageUrl": "/api/whole-earth-satellite-image/image/epic_1b_20250703131359.png",
+      "originalUrl": "https://api.nasa.gov/EPIC/archive/natural/2025/07/03/png/epic_1b_20250703131359.png?api_key=gXhpMC8Y1O3UF7vXNxSg6z7XFd3i7knhE22bl6mw"
+    },
+    {
+      "identifier": "20250703141926",
+      "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "image": "epic_1b_20250703141926",
+      "version": "03",
+      "centroid_coordinates": {
+        "lat": 16.083984,
+        "lon": -33.376465
+      },
+      "dscovr_j2000_position": {
+        "x": -307746.74612,
+        "y": 1346526.86323,
+        "z": 400658.57507
+      },
+      "lunar_j2000_position": {
+        "x": -378230.351433,
+        "y": -120272.584876,
+        "z": -71275.071862
+      },
+      "sun_j2000_position": {
+        "x": -30468364.599911,
+        "y": 136712532.668779,
+        "z": 59262427.333341
+      },
+      "attitude_quaternions": {
+        "q0": -0.77594,
+        "q1": 0.61456,
+        "q2": 0.12338,
+        "q3": 0.07083
+      },
+      "date": "2025-07-03 14:14:38",
+      "coords": {
+        "centroid_coordinates": {
+          "lat": 16.083984,
+          "lon": -33.376465
+        },
+        "dscovr_j2000_position": {
+          "x": -307746.74612,
+          "y": 1346526.86323,
+          "z": 400658.57507
+        },
+        "lunar_j2000_position": {
+          "x": -378230.351433,
+          "y": -120272.584876,
+          "z": -71275.071862
+        },
+        "sun_j2000_position": {
+          "x": -30468364.599911,
+          "y": 136712532.668779,
+          "z": 59262427.333341
+        },
+        "attitude_quaternions": {
+          "q0": -0.77594,
+          "q1": 0.61456,
+          "q2": 0.12338,
+          "q3": 0.07083
+        }
+      },
+      "imageUrl": "/api/whole-earth-satellite-image/image/epic_1b_20250703141926.png",
+      "originalUrl": "https://api.nasa.gov/EPIC/archive/natural/2025/07/03/png/epic_1b_20250703141926.png?api_key=gXhpMC8Y1O3UF7vXNxSg6z7XFd3i7knhE22bl6mw"
+    },
+    {
+      "identifier": "20250703152454",
+      "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "image": "epic_1b_20250703152454",
+      "version": "03",
+      "centroid_coordinates": {
+        "lat": 16.083984,
+        "lon": -49.702148
+      },
+      "dscovr_j2000_position": {
+        "x": -309209.048386,
+        "y": 1346237.754034,
+        "z": 400428.425478
+      },
+      "lunar_j2000_position": {
+        "x": -376972.85963,
+        "y": -123440.295203,
+        "z": -72970.248284
+      },
+      "sun_j2000_position": {
+        "x": -30581053.500097,
+        "y": 136691365.382999,
+        "z": 59253244.333325
+      },
+      "attitude_quaternions": {
+        "q0": -0.776295,
+        "q1": 0.61408,
+        "q2": 0.12399,
+        "q3": 0.06996
+      },
+      "date": "2025-07-03 15:20:05",
+      "coords": {
+        "centroid_coordinates": {
+          "lat": 16.083984,
+          "lon": -49.702148
+        },
+        "dscovr_j2000_position": {
+          "x": -309209.048386,
+          "y": 1346237.754034,
+          "z": 400428.425478
+        },
+        "lunar_j2000_position": {
+          "x": -376972.85963,
+          "y": -123440.295203,
+          "z": -72970.248284
+        },
+        "sun_j2000_position": {
+          "x": -30581053.500097,
+          "y": 136691365.382999,
+          "z": 59253244.333325
+        },
+        "attitude_quaternions": {
+          "q0": -0.776295,
+          "q1": 0.61408,
+          "q2": 0.12399,
+          "q3": 0.06996
+        }
+      },
+      "imageUrl": "/api/whole-earth-satellite-image/image/epic_1b_20250703152454.png",
+      "originalUrl": "https://api.nasa.gov/EPIC/archive/natural/2025/07/03/png/epic_1b_20250703152454.png?api_key=gXhpMC8Y1O3UF7vXNxSg6z7XFd3i7knhE22bl6mw"
+    },
+    {
+      "identifier": "20250703163021",
+      "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "image": "epic_1b_20250703163021",
+      "version": "03",
+      "centroid_coordinates": {
+        "lat": 16.062012,
+        "lon": -66.049805
+      },
+      "dscovr_j2000_position": {
+        "x": -310671.023613,
+        "y": 1345947.345275,
+        "z": 400198.182424
+      },
+      "lunar_j2000_position": {
+        "x": -375679.044748,
+        "y": -126597.122015,
+        "z": -74658.925254
+      },
+      "sun_j2000_position": {
+        "x": -30693753.236157,
+        "y": 136670102.99718,
+        "z": 59244024.749807
+      },
+      "attitude_quaternions": {
+        "q0": -0.776738,
+        "q1": 0.613502,
+        "q2": 0.124552,
+        "q3": 0.069049
+      },
+      "date": "2025-07-03 16:25:33",
+      "coords": {
+        "centroid_coordinates": {
+          "lat": 16.062012,
+          "lon": -66.049805
+        },
+        "dscovr_j2000_position": {
+          "x": -310671.023613,
+          "y": 1345947.345275,
+          "z": 400198.182424
+        },
+        "lunar_j2000_position": {
+          "x": -375679.044748,
+          "y": -126597.122015,
+          "z": -74658.925254
+        },
+        "sun_j2000_position": {
+          "x": -30693753.236157,
+          "y": 136670102.99718,
+          "z": 59244024.749807
+        },
+        "attitude_quaternions": {
+          "q0": -0.776738,
+          "q1": 0.613502,
+          "q2": 0.124552,
+          "q3": 0.069049
+        }
+      },
+      "imageUrl": "/api/whole-earth-satellite-image/image/epic_1b_20250703163021.png",
+      "originalUrl": "https://api.nasa.gov/EPIC/archive/natural/2025/07/03/png/epic_1b_20250703163021.png?api_key=gXhpMC8Y1O3UF7vXNxSg6z7XFd3i7knhE22bl6mw"
+    },
+    {
+      "identifier": "20250703173549",
+      "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "image": "epic_1b_20250703173549",
+      "version": "03",
+      "centroid_coordinates": {
+        "lat": 16.062012,
+        "lon": -82.397461
+      },
+      "dscovr_j2000_position": {
+        "x": -312131.84375,
+        "y": 1345655.875,
+        "z": 399968
+      },
+      "lunar_j2000_position": {
+        "x": -374349.717423,
+        "y": -129741.180588,
+        "z": -76340.104112
+      },
+      "sun_j2000_position": {
+        "x": -30806404,
+        "y": 136648768,
+        "z": 59234776
+      },
+      "attitude_quaternions": {
+        "q0": -0.777119,
+        "q1": 0.613009,
+        "q2": 0.12513,
+        "q3": 0.06818
+      },
+      "date": "2025-07-03 17:31:00",
+      "coords": {
+        "centroid_coordinates": {
+          "lat": 16.062012,
+          "lon": -82.397461
+        },
+        "dscovr_j2000_position": {
+          "x": -312131.84375,
+          "y": 1345655.875,
+          "z": 399968
+        },
+        "lunar_j2000_position": {
+          "x": -374349.717423,
+          "y": -129741.180588,
+          "z": -76340.104112
+        },
+        "sun_j2000_position": {
+          "x": -30806404,
+          "y": 136648768,
+          "z": 59234776
+        },
+        "attitude_quaternions": {
+          "q0": -0.777119,
+          "q1": 0.613009,
+          "q2": 0.12513,
+          "q3": 0.06818
+        }
+      },
+      "imageUrl": "/api/whole-earth-satellite-image/image/epic_1b_20250703173549.png",
+      "originalUrl": "https://api.nasa.gov/EPIC/archive/natural/2025/07/03/png/epic_1b_20250703173549.png?api_key=gXhpMC8Y1O3UF7vXNxSg6z7XFd3i7knhE22bl6mw"
+    },
+    {
+      "identifier": "20250703184117",
+      "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "image": "epic_1b_20250703184117",
+      "version": "03",
+      "centroid_coordinates": {
+        "lat": 16.018066,
+        "lon": -98.76709
+      },
+      "dscovr_j2000_position": {
+        "x": -313592.320566,
+        "y": 1345363.15,
+        "z": 399737.772659
+      },
+      "lunar_j2000_position": {
+        "x": -372984.304222,
+        "y": -132873.775187,
+        "z": -78014.479714
+      },
+      "sun_j2000_position": {
+        "x": -30919067.583415,
+        "y": 136627347.335975,
+        "z": 59225486.633948
+      },
+      "attitude_quaternions": {
+        "q0": -0.777488,
+        "q1": 0.612502,
+        "q2": 0.12576,
+        "q3": 0.067318
+      },
+      "date": "2025-07-03 18:36:28",
+      "coords": {
+        "centroid_coordinates": {
+          "lat": 16.018066,
+          "lon": -98.76709
+        },
+        "dscovr_j2000_position": {
+          "x": -313592.320566,
+          "y": 1345363.15,
+          "z": 399737.772659
+        },
+        "lunar_j2000_position": {
+          "x": -372984.304222,
+          "y": -132873.775187,
+          "z": -78014.479714
+        },
+        "sun_j2000_position": {
+          "x": -30919067.583415,
+          "y": 136627347.335975,
+          "z": 59225486.633948
+        },
+        "attitude_quaternions": {
+          "q0": -0.777488,
+          "q1": 0.612502,
+          "q2": 0.12576,
+          "q3": 0.067318
+        }
+      },
+      "imageUrl": "/api/whole-earth-satellite-image/image/epic_1b_20250703184117.png",
+      "originalUrl": "https://api.nasa.gov/EPIC/archive/natural/2025/07/03/png/epic_1b_20250703184117.png?api_key=gXhpMC8Y1O3UF7vXNxSg6z7XFd3i7knhE22bl6mw"
+    },
+    {
+      "identifier": "20250703194644",
+      "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "image": "epic_1b_20250703194644",
+      "version": "03",
+      "centroid_coordinates": {
+        "lat": 16.032715,
+        "lon": -115.100098
+      },
+      "dscovr_j2000_position": {
+        "x": -315051.642138,
+        "y": 1345069.374999,
+        "z": 399507.605771
+      },
+      "lunar_j2000_position": {
+        "x": -371583.69724,
+        "y": -135993.040028,
+        "z": -79681.050876
+      },
+      "sun_j2000_position": {
+        "x": -31031682.666869,
+        "y": 136605851.478281,
+        "z": 59216167.792172
+      },
+      "attitude_quaternions": {
+        "q0": -0.777893,
+        "q1": 0.611976,
+        "q2": 0.126319,
+        "q3": 0.066437
+      },
+      "date": "2025-07-03 19:41:55",
+      "coords": {
+        "centroid_coordinates": {
+          "lat": 16.032715,
+          "lon": -115.100098
+        },
+        "dscovr_j2000_position": {
+          "x": -315051.642138,
+          "y": 1345069.374999,
+          "z": 399507.605771
+        },
+        "lunar_j2000_position": {
+          "x": -371583.69724,
+          "y": -135993.040028,
+          "z": -79681.050876
+        },
+        "sun_j2000_position": {
+          "x": -31031682.666869,
+          "y": 136605851.478281,
+          "z": 59216167.792172
+        },
+        "attitude_quaternions": {
+          "q0": -0.777893,
+          "q1": 0.611976,
+          "q2": 0.126319,
+          "q3": 0.066437
+        }
+      },
+      "imageUrl": "/api/whole-earth-satellite-image/image/epic_1b_20250703194644.png",
+      "originalUrl": "https://api.nasa.gov/EPIC/archive/natural/2025/07/03/png/epic_1b_20250703194644.png?api_key=gXhpMC8Y1O3UF7vXNxSg6z7XFd3i7knhE22bl6mw"
+    },
+    {
+      "identifier": "20250703215739",
+      "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "image": "epic_1b_20250703215739",
+      "version": "03",
+      "centroid_coordinates": {
+        "lat": 15.996094,
+        "lon": -147.810059
+      },
+      "dscovr_j2000_position": {
+        "x": -317968.446469,
+        "y": 1344478.014967,
+        "z": 399047.241024
+      },
+      "lunar_j2000_position": {
+        "x": -368676.033489,
+        "y": -142193.573935,
+        "z": -82991.848026
+      },
+      "sun_j2000_position": {
+        "x": -31256887.333176,
+        "y": 136562632.189733,
+        "z": 59197420.000013
+      },
+      "attitude_quaternions": {
+        "q0": -0.778775,
+        "q1": 0.61081,
+        "q2": 0.12743,
+        "q3": 0.06461
+      },
+      "date": "2025-07-03 21:52:50",
+      "coords": {
+        "centroid_coordinates": {
+          "lat": 15.996094,
+          "lon": -147.810059
+        },
+        "dscovr_j2000_position": {
+          "x": -317968.446469,
+          "y": 1344478.014967,
+          "z": 399047.241024
+        },
+        "lunar_j2000_position": {
+          "x": -368676.033489,
+          "y": -142193.573935,
+          "z": -82991.848026
+        },
+        "sun_j2000_position": {
+          "x": -31256887.333176,
+          "y": 136562632.189733,
+          "z": 59197420.000013
+        },
+        "attitude_quaternions": {
+          "q0": -0.778775,
+          "q1": 0.61081,
+          "q2": 0.12743,
+          "q3": 0.06461
+        }
+      },
+      "imageUrl": "/api/whole-earth-satellite-image/image/epic_1b_20250703215739.png",
+      "originalUrl": "https://api.nasa.gov/EPIC/archive/natural/2025/07/03/png/epic_1b_20250703215739.png?api_key=gXhpMC8Y1O3UF7vXNxSg6z7XFd3i7knhE22bl6mw"
+    },
+    {
+      "identifier": "20250703230306",
+      "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "image": "epic_1b_20250703230306",
+      "version": "03",
+      "centroid_coordinates": {
+        "lat": 15.98877,
+        "lon": -164.128418
+      },
+      "dscovr_j2000_position": {
+        "x": -319425.925002,
+        "y": 1344180.617822,
+        "z": 398817.011193
+      },
+      "lunar_j2000_position": {
+        "x": -367169.284353,
+        "y": -145274.284451,
+        "z": -84635.776205
+      },
+      "sun_j2000_position": {
+        "x": -31369476.063161,
+        "y": 136540891.199976,
+        "z": 59187996.79999
+      },
+      "attitude_quaternions": {
+        "q0": -0.779123,
+        "q1": 0.610336,
+        "q2": 0.12802,
+        "q3": 0.063767
+      },
+      "date": "2025-07-03 22:58:18",
+      "coords": {
+        "centroid_coordinates": {
+          "lat": 15.98877,
+          "lon": -164.128418
+        },
+        "dscovr_j2000_position": {
+          "x": -319425.925002,
+          "y": 1344180.617822,
+          "z": 398817.011193
+        },
+        "lunar_j2000_position": {
+          "x": -367169.284353,
+          "y": -145274.284451,
+          "z": -84635.776205
+        },
+        "sun_j2000_position": {
+          "x": -31369476.063161,
+          "y": 136540891.199976,
+          "z": 59187996.79999
+        },
+        "attitude_quaternions": {
+          "q0": -0.779123,
+          "q1": 0.610336,
+          "q2": 0.12802,
+          "q3": 0.063767
+        }
+      },
+      "imageUrl": "/api/whole-earth-satellite-image/image/epic_1b_20250703230306.png",
+      "originalUrl": "https://api.nasa.gov/EPIC/archive/natural/2025/07/03/png/epic_1b_20250703230306.png?api_key=gXhpMC8Y1O3UF7vXNxSg6z7XFd3i7knhE22bl6mw"
+    }
+  ]
+}
