@@ -2,8 +2,8 @@ import express from "express";
 
 const router = express.Router();
 
-// Fetch airplane data from ADSB API
-const fetchAirplaneData = async () => {
+// Fetch Aircraft data from ADSB API
+const fetchAircraftData = async () => {
   const FCC_STUDIO_LAT = process.env.FCC_STUDIO_LAT;
   const FCC_STUDIO_LON = process.env.FCC_STUDIO_LON;
 
@@ -16,23 +16,23 @@ const fetchAirplaneData = async () => {
   const response = await fetch(apiUrl);
 
   if (!response.ok) {
-    throw new Error(`Failed to fetch airplane data: ${response.status}`);
+    throw new Error(`Failed to fetch Aircraft data: ${response.status}`);
   }
 
   const data = await response.json();
   return data;
 };
 
-// GET endpoint for AirplanesOverhead - returns airplane data
+// GET endpoint for AircraftOverhead - returns Aircraft data
 router.get("/", async (req, res) => {
   try {
     const FCC_STUDIO_LAT = process.env.FCC_STUDIO_LAT;
     const FCC_STUDIO_LON = process.env.FCC_STUDIO_LON;
 
-    const airplaneData = await fetchAirplaneData();
+    const AircraftData = await fetchAircraftData();
 
     res.json({
-      ...airplaneData,
+      ...AircraftData,
       location: {
         lat: parseFloat(FCC_STUDIO_LAT),
         lng: parseFloat(FCC_STUDIO_LON)
@@ -40,7 +40,7 @@ router.get("/", async (req, res) => {
     });
   } catch (error) {
     res.status(500).json({
-      message: "Error fetching airplane data",
+      message: "Error fetching Aircraft data",
       error: error.message
     });
   }
