@@ -290,6 +290,12 @@ router.get("/", async (req, res) => {
     console.log("cacheResult", cacheResult);
 
     if (!cacheResult) {
+      // If demo mode is enabled, return empty array when no cache exists
+      if (req.demoMode) {
+        console.log("Demo mode: No cache available, returning empty array");
+        return res.json([]);
+      }
+
       // If no cache exists, we need to fetch synchronously
       try {
         const images = await fetchEarthImages();
@@ -304,10 +310,14 @@ router.get("/", async (req, res) => {
       // Cache exists - return it immediately and check for stale cache in background
       console.log("Returning cached data immediately...");
 
-      // If cache is stale, trigger background refresh
-      if (cacheResult.isStale) {
+      // If cache is stale, trigger background refresh (unless in demo mode)
+      if (cacheResult.isStale && !req.demoMode) {
         console.log("Cache is stale, triggering background refresh...");
         setImmediate(() => refreshCacheInBackground());
+      } else if (cacheResult.isStale && req.demoMode) {
+        console.log(
+          "Demo mode: Cache is stale but skipping background refresh"
+        );
       }
     }
 

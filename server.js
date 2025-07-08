@@ -38,6 +38,12 @@ const validateApiKey = (req, res, next) => {
     });
   }
 
+  // Handle demo mode
+  if (apiKey === "DEMO") {
+    req.demoMode = true;
+    return next();
+  }
+
   if (apiKey !== validApiKey) {
     return res.status(403).json({
       error: "Invalid API key",
