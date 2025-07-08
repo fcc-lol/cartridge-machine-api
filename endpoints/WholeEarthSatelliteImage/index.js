@@ -104,16 +104,12 @@ const finalizeCacheUpdate = (downloadedImages) => {
       oldFiles.forEach((file) => {
         fs.unlinkSync(path.join(CACHE_IMAGES_DIR, file));
       });
-      console.log(`Deleted ${oldFiles.length} old cached images`);
 
       // Step 2: Rename temp files to their final names
       downloadedImages.forEach(({ tempPath, finalFilename }) => {
         const finalPath = path.join(CACHE_IMAGES_DIR, finalFilename);
         fs.renameSync(tempPath, finalPath);
       });
-      console.log(
-        `Renamed ${downloadedImages.length} temp files to final names`
-      );
     }
   } catch (error) {
     console.error("Error finalizing cache update:", error);
@@ -124,12 +120,10 @@ const finalizeCacheUpdate = (downloadedImages) => {
 let isRefreshing = false;
 const refreshCacheInBackground = async () => {
   if (isRefreshing) {
-    console.log("Cache refresh already in progress, skipping...");
     return;
   }
 
   isRefreshing = true;
-  console.log("Starting background cache refresh...");
 
   try {
     const NASA_API_KEY = process.env.NASA_API_KEY;
@@ -156,9 +150,6 @@ const refreshCacheInBackground = async () => {
     const oldImageFiles = fs.existsSync(CACHE_IMAGES_DIR)
       ? fs.readdirSync(CACHE_IMAGES_DIR)
       : [];
-    console.log(
-      `Identified ${oldImageFiles.length} old images to delete later`
-    );
 
     // Step 2: Download and save all the new images with temporary filenames
     const imagesWithUrls = [];
@@ -185,8 +176,6 @@ const refreshCacheInBackground = async () => {
           tempFilename
         );
 
-        console.log("Downloading ", img.image, "as", tempFilename);
-
         // Track successfully downloaded images
         successfullyDownloadedIds.push(img.image);
         downloadedImages.push({
@@ -212,12 +201,6 @@ const refreshCacheInBackground = async () => {
 
       // Save new data to cache
       saveToCache(imagesWithUrls);
-
-      console.log("Background cache refresh completed successfully");
-    } else {
-      console.log(
-        "No images were successfully downloaded, keeping existing cache"
-      );
     }
   } catch (error) {
     console.error("Background cache refresh failed:", error);
@@ -287,12 +270,10 @@ router.get("/", async (req, res) => {
   try {
     // Try to get cached data first
     let cacheResult = getCachedData();
-    console.log("cacheResult", cacheResult);
 
     if (!cacheResult) {
       // If demo mode is enabled, return empty array when no cache exists
       if (req.demoMode) {
-        console.log("Demo mode: No cache available, returning empty array");
         return res.json([]);
       }
 
@@ -307,17 +288,9 @@ router.get("/", async (req, res) => {
         cacheResult = { data: [], isStale: false };
       }
     } else {
-      // Cache exists - return it immediately and check for stale cache in background
-      console.log("Returning cached data immediately...");
-
       // If cache is stale, trigger background refresh (unless in demo mode)
       if (cacheResult.isStale && !req.demoMode) {
-        console.log("Cache is stale, triggering background refresh...");
         setImmediate(() => refreshCacheInBackground());
-      } else if (cacheResult.isStale && req.demoMode) {
-        console.log(
-          "Demo mode: Cache is stale but skipping background refresh"
-        );
       }
     }
 
