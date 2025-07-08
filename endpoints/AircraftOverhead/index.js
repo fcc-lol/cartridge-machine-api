@@ -1,5 +1,15 @@
 import express from "express";
-import fakeAircraftData from "./demo.json" assert { type: "json" };
+import fs from "fs";
+import { fileURLToPath } from "url";
+import { dirname, join } from "path";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+// Load JSON data using fs.readFileSync
+const fakeAircraftData = JSON.parse(
+  fs.readFileSync(join(__dirname, "demo.json"), "utf8")
+);
 
 const router = express.Router();
 
