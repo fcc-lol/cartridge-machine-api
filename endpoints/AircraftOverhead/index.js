@@ -2,7 +2,7 @@ import express from "express";
 
 const router = express.Router();
 
-const RADIUS = 20;
+const RADIUS = 25;
 const RADIUS_UNIT = "nm";
 
 // Fetch Aircraft data from ADSB API
