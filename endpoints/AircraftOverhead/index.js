@@ -172,19 +172,27 @@ router.get("/", async (req, res) => {
       const currentTime = new Date().getTime();
 
       // Initialize demo data on first request or if too much time has passed
-      if (!demoAircraftData || !lastDemoRequestTime) {
+      if (
+        !demoAircraftData ||
+        !lastDemoRequestTime ||
+        demoAircraftData.length === 0
+      ) {
         demoAircraftData = JSON.parse(JSON.stringify(fakeAircraftData)); // Deep copy to avoid mutating original
         lastDemoRequestTime = currentTime;
       }
 
       const elapsedTimeSeconds = (currentTime - lastDemoRequestTime) / 1000;
 
-      // Update aircraft positions based on elapsed time
-      if (elapsedTimeSeconds > 0) {
+      // Update aircraft positions based on elapsed time (but only if less than 10 minutes have passed)
+      if (elapsedTimeSeconds > 0 && elapsedTimeSeconds < 600) {
         demoAircraftData = updateAircraftPositions(
           demoAircraftData,
           elapsedTimeSeconds
         );
+        lastDemoRequestTime = currentTime;
+      } else if (elapsedTimeSeconds >= 600) {
+        // Reset demo data if more than 10 minutes have passed
+        demoAircraftData = JSON.parse(JSON.stringify(fakeAircraftData));
         lastDemoRequestTime = currentTime;
       }
 
