@@ -183,15 +183,15 @@ router.get("/", async (req, res) => {
 
       const elapsedTimeSeconds = (currentTime - lastDemoRequestTime) / 1000;
 
-      // Update aircraft positions based on elapsed time (but only if less than 10 minutes have passed)
-      if (elapsedTimeSeconds > 0 && elapsedTimeSeconds < 600) {
+      // Update aircraft positions based on elapsed time (but only if less than 5 minutes have passed)
+      if (elapsedTimeSeconds > 0 && elapsedTimeSeconds < 300) {
         demoAircraftData = updateAircraftPositions(
           demoAircraftData,
           elapsedTimeSeconds
         );
         lastDemoRequestTime = currentTime;
-      } else if (elapsedTimeSeconds >= 600) {
-        // Reset demo data if more than 10 minutes have passed
+      } else if (elapsedTimeSeconds >= 300) {
+        // Reset demo data if more than 5 minutes have passed
         demoAircraftData = JSON.parse(JSON.stringify(fakeAircraftData));
         lastDemoRequestTime = currentTime;
       }
