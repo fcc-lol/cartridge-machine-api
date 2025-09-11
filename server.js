@@ -2,6 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import WholeEarthSatelliteImage from "./endpoints/WholeEarthSatelliteImage/index.js";
 import AircraftOverhead from "./endpoints/AircraftOverhead/index.js";
+import SatellitesOverhead from "./endpoints/SatellitesOverhead/index.js";
 
 dotenv.config();
 
@@ -56,6 +57,7 @@ const validateApiKey = (req, res, next) => {
 
 app.use("/WholeEarthSatelliteImage", validateApiKey, WholeEarthSatelliteImage);
 app.use("/AircraftOverhead", validateApiKey, AircraftOverhead);
+app.use("/SatellitesOverhead", validateApiKey, SatellitesOverhead);
 
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
