@@ -59,7 +59,7 @@ const demoSatelliteData = {
 };
 
 // Constants for satellite search radius
-const SATELLITE_RADIUS_KM = 50; // kilometers for metadata
+const SATELLITE_RADIUS_KM = 100; // kilometers for metadata
 const RADIUS_UNIT = "km";
 
 // Convert kilometers to degrees (approximately 111 km per degree)
