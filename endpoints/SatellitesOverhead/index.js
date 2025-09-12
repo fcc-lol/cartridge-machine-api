@@ -58,6 +58,10 @@ const demoSatelliteData = {
   ]
 };
 
+// Constants for satellite search radius
+const SATELLITE_RADIUS = 50; // kilometers
+const RADIUS_UNIT = "km";
+
 // Fetch Satellite data from space-api.danmade.app
 const fetchSatelliteData = async () => {
   const FCC_STUDIO_LAT = process.env.FCC_STUDIO_LAT;
@@ -67,7 +71,7 @@ const fetchSatelliteData = async () => {
     throw new Error("FCC Studio coordinates are not configured");
   }
 
-  const apiUrl = `https://space-api.danmade.app/satellites-above?lat=${FCC_STUDIO_LAT}&lon=${FCC_STUDIO_LON}`;
+  const apiUrl = `https://space-api.danmade.app/satellites-above?lat=${FCC_STUDIO_LAT}&lon=${FCC_STUDIO_LON}&radius=${SATELLITE_RADIUS}`;
 
   const response = await fetch(apiUrl);
 
@@ -93,6 +97,10 @@ router.get("/", async (req, res) => {
             lat: "DEMO_LAT",
             lng: "DEMO_LON"
           },
+          radius: {
+            value: SATELLITE_RADIUS,
+            unit: RADIUS_UNIT
+          },
           source: "demo"
         }
       });
@@ -111,6 +119,10 @@ router.get("/", async (req, res) => {
         location: {
           lat: FCC_STUDIO_LAT,
           lng: FCC_STUDIO_LON
+        },
+        radius: {
+          value: SATELLITE_RADIUS,
+          unit: RADIUS_UNIT
         },
         source: "space-api.danmade.app"
       }
