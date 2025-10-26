@@ -126,20 +126,7 @@ const refreshCacheInBackground = async () => {
   isRefreshing = true;
 
   try {
-    const NASA_API_KEY = process.env.NASA_API_KEY;
-
-    if (!NASA_API_KEY) {
-      throw new Error("NASA API key is not configured");
-    }
-
-    const response = await fetch(
-      `https://api.nasa.gov/EPIC/api/natural/images?api_key=${NASA_API_KEY}`
-    );
-
-    if (!response.ok) {
-      throw new Error(`Failed to fetch images: ${response.status}`);
-    }
-
+    const response = await fetchEarthImages();
     const data = await response.json();
 
     if (data.length === 0) {
@@ -155,6 +142,7 @@ const refreshCacheInBackground = async () => {
     const imagesWithUrls = [];
     const successfullyDownloadedIds = [];
     const downloadedImages = []; // Track temp files and their final names
+    const NASA_API_KEY = process.env.NASA_API_KEY;
 
     for (const img of data) {
       try {
@@ -211,21 +199,70 @@ const refreshCacheInBackground = async () => {
 };
 
 // Fetch fresh data from NASA API and cache images (synchronous version for initial load)
-const fetchEarthImages = async () => {
+const fetchEarthImages = async (retryCount = 3, retryDelay = 2000) => {
   const NASA_API_KEY = process.env.NASA_API_KEY;
 
   if (!NASA_API_KEY) {
     throw new Error("NASA API key is not configured");
   }
 
-  const response = await fetch(
-    `https://api.nasa.gov/EPIC/api/natural/images?api_key=${NASA_API_KEY}`
-  );
+  let lastError;
 
-  if (!response.ok) {
-    throw new Error(`Failed to fetch images: ${response.status}`);
+  for (let attempt = 1; attempt <= retryCount; attempt++) {
+    try {
+      console.log(
+        `Attempting to fetch NASA EPIC images (attempt ${attempt}/${retryCount})...`
+      );
+
+      const response = await fetch(
+        `https://api.nasa.gov/EPIC/api/natural/images?api_key=${NASA_API_KEY}`,
+        {
+          timeout: 10000, // 10 second timeout
+          headers: {
+            "User-Agent": "CartridgeMachine-API/1.0"
+          }
+        }
+      );
+
+      if (!response.ok) {
+        const errorMsg = `NASA API returned ${response.status}: ${response.statusText}`;
+        console.warn(errorMsg);
+
+        // For 503 (Service Unavailable) or 429 (Too Many Requests), retry
+        if (
+          (response.status === 503 || response.status === 429) &&
+          attempt < retryCount
+        ) {
+          console.log(`Retrying in ${retryDelay}ms...`);
+          await new Promise((resolve) => setTimeout(resolve, retryDelay));
+          retryDelay *= 1.5; // Exponential backoff
+          continue;
+        }
+
+        throw new Error(errorMsg);
+      }
+
+      console.log("Successfully fetched NASA EPIC images");
+      return response;
+    } catch (error) {
+      lastError = error;
+      console.error(`Attempt ${attempt} failed:`, error.message);
+
+      if (attempt < retryCount) {
+        console.log(`Retrying in ${retryDelay}ms...`);
+        await new Promise((resolve) => setTimeout(resolve, retryDelay));
+        retryDelay *= 1.5; // Exponential backoff
+      }
+    }
   }
 
+  throw new Error(
+    `Failed to fetch images after ${retryCount} attempts. Last error: ${lastError.message}`
+  );
+};
+
+const processEarthImagesData = async (retryCount = 3, retryDelay = 2000) => {
+  const response = await fetchEarthImages(retryCount, retryDelay);
   const data = await response.json();
 
   if (data.length === 0) {
@@ -234,6 +271,7 @@ const fetchEarthImages = async () => {
 
   // Process images and download them
   const imagesWithUrls = [];
+  const NASA_API_KEY = process.env.NASA_API_KEY;
 
   for (const img of data) {
     try {
@@ -279,12 +317,27 @@ router.get("/", async (req, res) => {
 
       // If no cache exists, we need to fetch synchronously
       try {
-        const images = await fetchEarthImages();
+        const images = await processEarthImagesData();
         saveToCache(images);
         cacheResult = { data: images, isStale: false };
       } catch (error) {
         console.error("Error fetching fresh data:", error);
-        // Return empty array if no cache and fetch fails
+
+        // If this is a NASA API issue (503, 429, etc.), provide helpful message
+        if (
+          error.message.includes("503") ||
+          error.message.includes("Service Unavailable")
+        ) {
+          return res.status(503).json({
+            message: "NASA EPIC API is temporarily unavailable",
+            error:
+              "The NASA Earth Polychromatic Imaging Camera (EPIC) service is currently experiencing issues. Please try again later.",
+            retryAfter: "Please retry in a few minutes",
+            status: "service_unavailable"
+          });
+        }
+
+        // For other errors, return empty array if no cache and fetch fails
         cacheResult = { data: [], isStale: false };
       }
     } else {
